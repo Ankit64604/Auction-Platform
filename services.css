@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.services-header {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 1rem;
+}
+
+.services-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.services-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.services-menu li {
+    margin-right: 1rem;
+}
+
+.services-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.services-section {
+    padding: 3rem;
+}
+
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    text-align: center;
+    max-width: 350px;
+    margin-bottom: 2rem;
+}
+
+.service img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.services-footer {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.services-footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-footer p {
+    margin: 0;
+}
+
+.services-social-media a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.services-social-media i {
+    transition: color 0.3s ease-in-out;
+}
+
+.services-social-media a:hover i {
+    color: #ffcc00;
+}
+/* The existing CSS remains unchanged */
+
+
+
+.services-footer p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.services-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 3rem;
+}
+
+.service p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #555;
+}
+h2 {
+    text-align: center;
+    margin-left: 400px;
+}
+.service img {
+    object-fit: cover;
+}
